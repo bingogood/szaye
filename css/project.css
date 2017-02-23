@@ -1,0 +1,252 @@
+@font-face {
+	font-family: 'iconfont';
+	src: url('../font_szaye/iconfont.eot');
+	src: url('../font_szaye/iconfont.eot?#iefix') format('embedded-opentype'), url('../font_szaye/iconfont.woff') format('woff'), url('../font_szaye/iconfont.ttf') format('truetype'), url('../font_szaye/iconfont.svg#iconfont') format('svg');
+}
+
+.icon {
+	font-family: "iconfont" !important;
+	font-size: 16px;
+	font-style: normal;
+	-webkit-font-smoothing: antialiased;
+	-webkit-text-stroke-width: 0.2px;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.project_banner {
+	width: 1440px;
+	height: 800px;
+	margin: auto;
+	margin-top: 30px;
+	position: relative;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+	position: absolute;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+.swiper-pagination {
+	display: none;
+}
+
+.swiper-container {
+	width: 1440px;
+	height: 800px;
+}
+
+.swiper-container img {
+	width: 1440px;
+	box-sizing: border-box;
+}
+
+.project_main1 {
+	width: 1440px;
+	height: 40px;
+	margin: auto;
+	position: relative;
+}
+
+.project_main1_top {
+	width: 519px;
+	height: 70px;
+	background: #fff;
+	font-family: "微软雅黑", Regular;
+	font-size: 28px;
+	color: #d10007;
+	position: absolute;
+	z-index: 9;
+	top: -39px;
+	left: 458px;
+	text-align: center;
+	line-height: 70px;
+}
+
+.project_main1_center {
+	width: 1440px;
+	height: 25px;
+	margin: auto;
+	font-weight: 700;
+	color: #000000;
+	text-align: center;
+	line-height: 25px;
+	font-size: 20px;
+	font-family: 'Source Sans Pro', SimHei;
+}
+
+.project_caixihuan {
+	width: 725px;
+	height: 60px;
+	margin: auto;
+}
+
+.project_caixihuan_btn {
+	padding-left: 5px;
+	padding-right: 5px;
+	height: 30px;
+	float: right;
+	background-color: #fafafa;
+	outline: none;
+	border: 1px solid #ededed;
+	text-align: center;
+	line-height: 30px;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+.project_caixihuan_btn .icon {
+	color: #D10007;
+}
+
+.project_xihsz {
+	height: 30px;
+	color: #999999;
+}
+
+.project_tpzs {
+	width: 725px;
+	margin: auto;
+}
+
+.project_tpzs_1 {
+	width: 100%;
+	height: 150px;
+	margin-bottom: 35px;
+	overflow: hidden;
+}
+
+.project_tpzs_11 {
+	width: 150px;
+	height: 150px;
+	float: left;
+	border: 2px solid #cfcfcf;
+}
+
+.project_tpzs_11 img {
+	width: 150px;
+	height: 150px;
+}
+
+.project_tpzs_12 {
+	margin-left: 37px;
+}
+
+.project_jies {
+	width: 100%;
+	height: 140px;
+	margin-top: 20px;
+}
+
+.project_jies div {
+	height: 30px;
+	color: #000000;
+	font-size: 14px;
+	font-weight: 700;
+	font-family: "微软雅黑";
+}
+
+.project_jies span {
+	font-weight: 500;
+}
+
+.fenx {
+	width: 100%;
+	height: 180px;
+	color: #000000;
+	font-weight: 700;
+	font-family: "微软雅黑";
+}
+
+.fenx .icon {
+	display: block;
+	float: left;
+	width: 30px;
+	height: 37px;
+	margin-right: 10px;
+	line-height: 40px;
+	color: #D10007;
+	font-size: 25px;
+	transition: all 0.5s;
+	cursor: pointer;
+}
+
+.fenx .icon:hover {
+	font-size: 30px;
+	color: #000000;
+}
+
+.fenx .fwefew {
+	line-height: 30px;
+}
+
+.project_fenxiang {
+	margin-bottom: 20px;
+	font-size: 14px;
+}
+
+.project_liuyan {
+	width: 1200px;
+	height: 200px;
+	margin: auto;
+	border: 1px solid #CCCCCC;
+}
+
+.project_yhpl {
+	width: 1200px;
+	height: 90px;
+	margin: auto;
+	line-height: 50px;
+	font-family: "微软雅黑";
+	color: #000000;
+	font-weight: 500;
+	font-size: 14px;
+}
+
+.project_liuyan_top {
+	width: 100%;
+	height: 50px;
+	margin: auto;
+	text-indent: 20px;
+	line-height: 50px;
+	font-family: "微软雅黑";
+	color: #000000;
+	font-weight: 500;
+	font-size: 14px;
+}
+
+.project_liuyan textarea {
+	width: 1050px;
+	height: 87px;
+	float: left;
+	border: 1px solid #a9a9a9;
+	outline: none;
+	margin-left: 20px;
+	resize: none;
+}
+
+.project_liuyan_img {
+	width: 70px;
+	height: 70px;
+	float: left;
+	margin-left: 20px;
+}
+
+.project_liuyan_btn {
+	width: 86px;
+	height: 29px;
+	color: #FFF;
+	text-align: center;
+	line-height: 29px;
+	font-size: 14px;
+	background: #cc3717;
+	float: right;
+	margin-right: 38px;
+	margin-top: 12px;
+	cursor: pointer;
+}

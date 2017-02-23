@@ -1,0 +1,256 @@
+@font-face {
+	font-family: 'iconfont';
+	src: url('../font_szaye/iconfont.eot');
+	src: url('../font_szaye/iconfont.eot?#iefix') format('embedded-opentype'), url('../font_szaye/iconfont.woff') format('woff'), url('../font_szaye/iconfont.ttf') format('truetype'), url('../font_szaye/iconfont.svg#iconfont') format('svg');
+}
+body{
+	font-family:font-family:"Source Sans Pro";
+}
+.icon {
+	font-family: "iconfont" !important;
+	font-size: 16px;
+	font-style: normal;
+	-webkit-font-smoothing: antialiased;
+	-webkit-text-stroke-width: 0.2px;
+	-moz-osx-font-smoothing: grayscale;
+}
+.project_banner{
+	width:100%;
+	margin: auto;
+	position: relative;
+}
+.swiper-container {
+	width:100%;
+	margin: auto;
+}
+
+.swiper-pagination-bullet{
+	margin: 0 5px;
+}
+.swiper-pagination{
+	margin-left:50%;
+	-webkit-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	-o-transform: translateX(-50%);
+	transform: translateX(-50%);
+}
+.swiper-button-prev,
+.swiper-button-next{
+display: none;
+
+}
+.swiper-container img {
+	width:100%;
+	box-sizing: border-box;
+}
+
+.project_main1 {
+	width:90%;
+	margin: auto;
+	margin-top: 20px;
+}
+
+.project_main1_top {
+	width:80%;
+	margin: auto;
+	background: #fff;
+	font-family: "微软雅黑", Regular;
+	font-size: 28px;
+	z-index: 9;
+	text-align: center;
+	line-height: 40px;
+}
+
+.project_main1_center {
+	width:90%;
+	height: 25px;
+	margin: auto;
+	font-weight: 500;
+	color: #000000;
+	text-align: center;
+	line-height: 25px;
+	font-size: 20px;
+	font-family: 'Source Sans Pro', SimHei;
+	margin-top: 20px;
+}
+
+.project_caixihuan {
+	width: 80%;
+	height: 60px;
+	margin: auto;
+	padding-right:1.2%;
+}
+
+.project_caixihuan_btn {
+	padding-left: 5px;
+	padding-right: 5px;
+	height: 30px;
+	float: right;
+	border: 1px solid #ededed;
+	text-align: center;
+	line-height: 30px;
+	font-size: 16px;
+	cursor: pointer;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	background-color: #fafafa;
+	outline: none;
+}
+
+.project_caixihuan_btn .icon {
+	color: #D10007;
+}
+
+.project_xihsz {
+	height: 30px;
+	color: #999999;
+}
+/*图片展示部分*/
+.project_tpzs {
+	width:80%;
+	margin: auto;
+}
+.Artist_jies{
+	width: 100%;
+
+}
+.Artist_jies img{
+	width:80%;
+	margin-left:20%;
+}
+.Artist_jies1{
+	width:100%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.Artist_jies2{
+	width: 100%;
+	font-size:18px;
+	font-weight: 700;
+
+}
+.Artist_jies3{
+	font-size: 16px;
+	font-weight:600;
+
+}
+.Artist_jies4{
+	margin-top: 20px;
+	font-size: 14px;
+	line-height:25px;
+}
+
+
+.fenx {
+	width: 100%;
+	height: 180px;
+	color: #000000;
+	font-weight: 700;
+	font-family: "微软雅黑";
+}
+
+.fenx .icon {
+	display: block;
+	float: left;
+	width: 30px;
+	height: 37px;
+	margin-right: 10px;
+	line-height: 40px;
+	color: #D10007;
+	font-size: 25px;
+	transition: all 0.5s;
+	cursor: pointer;
+}
+
+.fenx .icon:hover {
+	font-size: 30px;
+	color: #000000;
+}
+
+.fenx .fwefew {
+	line-height: 30px;
+	
+}
+
+.project_fenxiang {
+	margin-bottom: 20px;
+	font-size: 14px;
+}
+
+.project_liuyan {
+	width: 75%;
+	height: 200px;
+	margin: auto;
+	border: 1px solid #CCCCCC;
+}
+/*用户评价部分*/
+.project_liuyan {
+	width: 75%;
+	height: 200px;
+	margin: auto;
+	border: 1px solid #CCCCCC;
+}
+
+.project_yhpl {
+	width: 75%;
+	height: 90px;
+	margin: auto;
+	line-height: 50px;
+	font-family: "微软雅黑";
+	color: #000000;
+	font-weight: 500;
+	font-size: 14px;
+}
+
+.project_liuyan_top {
+	width: 100%;
+	height: 50px;
+	margin: auto;
+	text-indent: 20px;
+	line-height: 50px;
+	font-family: "微软雅黑";
+	color: #000000;
+	font-weight: 500;
+	font-size: 14px;
+}
+.project_wenbenk{
+	width: 100%;
+	height:87px;
+}
+.project_liuyan textarea {
+	width:75%;
+	height: 87px;
+	float: right;
+	border: 1px solid #a9a9a9;
+	outline: none;
+	margin-right: 5%;
+	resize: none;
+}
+
+.project_liuyan_img {
+	width:15%;
+	height:15%;
+	float: left;
+	margin-left: 10px;
+}
+.project_liuyan_img img{
+	width: 100%;
+}
+.project_plbtn{
+	width: 100%;
+	height: 29px;
+	margin-top: 12px;
+}
+.project_liuyan_btn {
+	width: 86px;
+	height: 29px;
+	color: #FFF;
+	text-align: center;
+	line-height: 29px;
+	font-size: 14px;
+	background: #cc3717;
+	float: right;
+	margin-right:5%;
+	cursor: pointer;
+}

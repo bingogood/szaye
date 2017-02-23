@@ -1,0 +1,30 @@
+.wrap{
+	width:100%;
+}
+.lab-neirong-right{
+	width:100%;
+}
+.lab-list{
+	display: none;
+}
+.lab-list>li{
+	display: block;
+	margin: 0px;
+}
+.ssss{
+	width:88px;
+	height:30px;
+	margin: auto;
+	background:url(../img/lab-img/lab-img5.png) no-repeat;
+	background-size: cover;
+}
+.right-wenzi1{
+	text-indent: 10px;
+}
+.right-wenzi2{
+	text-indent: 13px;
+}
+.big{
+	font-size:18px !important;
+	font-weight: 600 !important;
+}

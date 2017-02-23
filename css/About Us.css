@@ -1,0 +1,955 @@
+	body,
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6,
+	hr,
+	p,
+	blockquote,
+	dl,
+	dt,
+	dd,
+	ul,
+	ol,
+	li,
+	pre,
+	form,
+	fieldset,
+	legend,
+	button,
+	input,
+	textarea,
+	th,
+	td {
+		margin: 0;
+		padding: 0;
+		border: 0;
+	}
+	
+	html {
+		color: #000;
+	}
+	
+	html,
+	body {
+		height: 100%;
+	}
+	
+	body,
+	button,
+	input,
+	select,
+	textarea {
+		font-size: 12px;
+		font-family: 'Source Sans Pro', '微软雅黑', \5FAE\8F6F\96C5\9ED1, '宋体', \5b8b\4f53, arial, 'Hiragino Sans GB', Tahoma, Arial, Helvetica;
+	}
+	
+	ul,
+	ol,
+	li,
+	dl,
+	dd,
+	dt {
+		list-style: none;
+	}
+	
+	em {
+		font-style: normal;
+	}
+	
+	a {
+		text-decoration: none;
+	}
+	
+	a:hover {
+		text-decoration: underline;
+	}
+	
+	legend {
+		color: #000;
+	}
+	
+	fieldset,
+	img {
+		border: 0;
+	}
+	
+	label,
+	button {
+		cursor: pointer;
+	}
+	/*解决IE图片缩放失真*/
+	
+	img {
+		-ms-interpolation-mode: bicubic;
+	}
+	/*清除浮动*/
+	
+	.clearfix:after {
+		content: '';
+		display: block;
+		height: 0;
+		clear: both;
+	}
+	
+	.clearfix {
+		zoom: 1;
+	}
+	
+	.clear {
+		clear: both;
+	}
+	/*连续英文、数字换行*/
+	
+	.wordwrap {
+		word-break: break-all;
+		word-wrap: break-word;
+	}
+	/*单行文字超出显示省略号*/
+	
+	.omg {
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+	}
+	/*地图 引用百度地图API-*/
+	
+	.iw_poi_title {
+		color: #CC5522;
+		font-size: 14px;
+		font-weight: bold;
+		overflow: hidden;
+		padding-right: 13px;
+		white-space: nowrap
+	}
+	
+	.iw_poi_content {
+		font: 12px arial, sans-serif;
+		overflow: visible;
+		padding-top: 4px;
+		white-space: -moz-pre-wrap;
+		word-wrap: break-word
+	}
+	
+	#dituContent {
+		width: 100%;
+		height: 400px;
+	}
+	
+	#dituContent .data {
+		width: 100px;
+		height: 100px;
+		background: red;
+		position: absolute;
+		left: 5%;
+		bottom: 10%;
+		z-index: 1;
+	}
+	
+	.map {
+		position: relative;
+	}
+	
+	.data {
+		position: absolute;
+		left: 5%;
+		top: 5%;
+		z-index: 1;
+		background: #484848;
+		width: 15%;
+		color: white;
+		font-size: 1.2rem;
+		padding: 1.2%;
+		box-sizing: border-box;
+	}
+	
+	.data a {
+		color: white;
+	}
+	
+	.textarea_cn .p2 {
+		color: #484848;
+		font-size: 1rem;
+	}
+	/*	屏幕宽度大于1500px样式*/
+	
+	@media only screen and (min-width:1501px) {
+			.meiti-header {
+		height: 45px;
+		text-align: center;
+		font-size: 35px;
+		color: #d10007;
+		margin-top: 30px;
+	}
+	.gaishu {
+		width: 90%;
+		color: black;
+		font-size: 20px;
+		font-weight:400;
+		line-height: 30px;
+		text-align: center;
+		margin: 30px auto 20px;
+	}
+	.jieshao {
+		color: #5a5959;
+		width: 1240px;
+		margin: auto ;
+		margin-bottom: 40px;
+		font-weight: 400;
+		font-size: 18px;
+		line-height: 24px;
+	}
+	::selection {
+		background: red;
+		color: white;
+	}
+	
+		.main {
+			width: 1440px;
+			margin: auto;
+		}
+		
+		.ul1 {
+			margin: auto;
+			width: 1080px;
+			height: 200px;
+		}
+		.ul1 li {
+			width: 260px;
+			background: #d10007;
+			float: left;
+			height: 100%;
+			margin: 5px;
+		}
+		.ul1 li a {
+			display: block;
+			width: 100%;
+			height: 100%;
+			color: white;
+			padding: 5%;
+			box-sizing: border-box;
+			position: relative;
+			text-decoration: none;
+		}
+		.ul1 li a h2 {
+			font-size: 35px;
+			font-weight: normal;
+		}
+		.ul1 li a p {
+			font-size: 1rem;
+			color: black;
+			margin-top: 1%;
+		}
+		.ul1 li a span {
+			font-size: 1rem;
+			font-weight: 600;
+			position: absolute;
+			bottom: 5%;
+		}
+		.ul1 li:hover {
+			background: white;
+			transition: all 0.5s;
+		}
+		.ul1 li:hover h2 {
+			color: #d10007;
+			transition: all 0.5s;
+		}
+		.ul1 li:hover span {
+			color: #d10007;
+			transition: all 0.5s;
+		}
+		.Ourteam {
+			width: 100%;
+		}
+		.Ourteam p {
+			font-size: 2rem;
+			color: #d10007;
+			padding: 2%;
+			box-sizing: border-box;
+		}
+		.Ourteam ul {
+			width: 100%;
+		}
+		.Ourteam ul li {
+			float: left;
+			box-sizing: border-box;
+			border: 1% solid gray;
+			margin: auto;
+			width: 25%;
+		}
+		.Ourteam ul li a img {
+			width: 99%;
+		}
+		.Contacts {
+			width: 90%;
+			font-size: 2rem;
+			color: #d10007;
+			padding: 2%;
+			box-sizing: border-box;
+		}
+		
+		.map {
+			width: 1440px;
+			margin: auto;
+		}
+	}
+	/*屏幕分辨率在 1440~1500之间*/
+	
+	@media only screen and (min-width:1440px) and (max-width:1500px) {
+		
+		.ul1 {
+			margin: 50px auto;
+			width: 100%;
+			height: 230px;
+			margin-top: 135px;
+		}
+		.ul1 li:nth-child(1) {
+			margin-left: 4%;
+		}
+		.ul1 li {
+			width: 20%;
+			background: #d10007;
+			float: left;
+			margin: 2%;
+			height: 80%;
+		}
+		.ul1 li a {
+			display: block;
+			width: 100%;
+			height: 100%;
+			color: white;
+			padding: 5%;
+			box-sizing: border-box;
+			position: relative;
+			text-decoration: none;
+		}
+		.ul1 li a h2 {
+			font-size: 25px;
+			font-weight: normal;
+		}
+		.ul1 li a p {
+			font-size: 1rem;
+			color: black;
+			margin-top: 1%;
+		}
+		.ul1 li a span {
+			font-size: 1rem;
+			font-weight: 600;
+			position: absolute;
+			bottom: 5%;
+		}
+		.ul1 li:hover {
+			background: white;
+			transition: all 0.5s;
+		}
+		.ul1 li:hover h2 {
+			color: #d10007;
+			transition: all 0.5s;
+		}
+		.ul1 li:hover span {
+			color: #d10007;
+			transition: all 0.5s;
+		}
+		.Ourteam {
+			width: 100%;
+		}
+		.Ourteam p {
+			font-size: 2rem;
+			color: #d10007;
+			padding: 2%;
+			box-sizing: border-box;
+		}
+		.Ourteam ul {
+			width: 100%;
+			box-sizing: border-box;
+			padding-bottom: 30%;
+		}
+		.Ourteam ul li {
+			float: left;
+			box-sizing: border-box;
+			border: 1% solid gray;
+			margin: auto;
+			width: 25%;
+		}
+		.Ourteam ul li a img {
+			width: 99%;
+		}
+		.Contacts {
+			width: 90%;
+			font-size: 2rem;
+			color: #d10007;
+			padding: 2%;
+			box-sizing: border-box;
+		}
+		
+		.data {
+			width: 41%;
+		}
+	}
+	/*屏幕分辨率在 1198~1440之间*/
+	
+	@media only screen and (min-width:1198px) and (max-width:1439px) {
+		
+		.ul1 {
+			width: 100%;
+			height: 230px;
+		}
+		.ul1 li:nth-child(1) {
+			margin-left: 7%;
+		}
+		.ul1 li {
+			width: 20%;
+			background: #d10007;
+			float: left;
+			height: 70%;
+			margin: 1%;
+		}
+		.ul1 li a {
+			display: block;
+			width: 100%;
+			height: 100%;
+			color: white;
+			padding: 5%;
+			box-sizing: border-box;
+			position: relative;
+			text-decoration: none;
+		}
+		.ul1 li a h2 {
+			font-size: 35px;
+			font-weight: normal;
+		}
+		.ul1 li a p {
+			font-size: 1rem;
+			color: black;
+			margin-top: 1%;
+		}
+		.ul1 li a span {
+			font-size: 1rem;
+			font-weight: 600;
+			position: absolute;
+			bottom: 5%;
+		}
+		.ul1 li:hover {
+			background: white;
+			transition: all 0.5s;
+		}
+		.ul1 li:hover h2 {
+			color: #d10007;
+			transition: all 0.5s;
+		}
+		.ul1 li:hover span {
+			color: #d10007;
+			transition: all 0.5s;
+		}
+		.Ourteam {
+			width: 100%;
+		}
+		.Ourteam p {
+			font-size: 2rem;
+			color: #d10007;
+			padding: 2%;
+			box-sizing: border-box;
+		}
+		.Ourteam ul {
+			width: 100%;
+			box-sizing: border-box;
+			padding-bottom: 30%;
+		}
+		.Ourteam ul li {
+			float: left;
+			box-sizing: border-box;
+			border: 1% solid gray;
+			margin: auto;
+			width: 25%;
+		}
+		.Ourteam ul li a img {
+			width: 99%;
+		}
+		.Contacts {
+			width: 90%;
+			font-size: 2rem;
+			color: #d10007;
+			padding: 2%;
+			box-sizing: border-box;
+		}
+		
+		.data {
+			width: 41%;
+		}
+	}
+	/*屏幕分辨率在 1024~1197之间*/
+	
+	@media only screen and (min-width:1024px) and (max-width:1197px) {
+		
+		.ul1 {
+			width: 100%;
+			height: 230px;
+		}
+		.ul1 li {
+			width: 23%;
+			background: #d10007;
+			float: left;
+			margin: 1%;
+			height: 80%;
+		}
+		.ul1 li a {
+			display: block;
+			width: 100%;
+			height: 100%;
+			color: white;
+			padding: 5%;
+			box-sizing: border-box;
+			position: relative;
+			text-decoration: none;
+		}
+		.ul1 li a h2 {
+			font-size: 25px;
+			font-weight: normal;
+		}
+		.ul1 li a p {
+			font-size: 1rem;
+			color: black;
+			margin-top: 1%;
+		}
+		.ul1 li a span {
+			font-size: 1rem;
+			font-weight: 600;
+			position: absolute;
+			bottom: 5%;
+		}
+		.ul1 li:hover {
+			background: white;
+			transition: all 0.5s;
+		}
+		.ul1 li:hover h2 {
+			color: #d10007;
+			transition: all 0.5s;
+		}
+		.ul1 li:hover span {
+			color: #d10007;
+			transition: all 0.5s;
+		}
+		.Ourteam {
+			width: 100%;
+		}
+		.Ourteam p {
+			font-size: 2rem;
+			color: #d10007;
+			padding: 2%;
+			box-sizing: border-box;
+		}
+		.Ourteam ul {
+			width: 100%;
+			box-sizing: border-box;
+			padding-bottom: 30%;
+		}
+		.Ourteam ul li {
+			float: left;
+			box-sizing: border-box;
+			border: 1% solid gray;
+			margin: auto;
+			width: 25%;
+		}
+		.Ourteam ul li a img {
+			width: 99%;
+		}
+		.Contacts {
+			width: 90%;
+			font-size: 2rem;
+			color: #d10007;
+			padding: 2%;
+			box-sizing: border-box;
+		}
+		.data {
+			width: 41%;
+		}
+	}
+	/*屏幕分辨率在 821~1023之间*/
+	
+	@media only screen and (min-width:821px) and (max-width:1023px) {
+		
+		.ul1 {
+			margin: 10% auto;
+			width: 100%;
+			height: 230px;
+		}
+		.ul1 li {
+			width: 23%;
+			background: #d10007;
+			float: left;
+			height: 70%;
+			margin: 1%;
+		}
+		.ul1 li a {
+			display: block;
+			width: 100%;
+			height: 100%;
+			color: white;
+			padding:3%;
+			box-sizing: border-box;
+			position: relative;
+			text-decoration: none;
+		}
+		.ul1 li a h2 {
+			font-size: 20px;
+			font-weight: normal;
+		}
+		.ul1 li a p {
+			font-size: 1rem;
+			color: black;
+			margin-top: 1%;
+		}
+		.ul1 li a span {
+			font-size: 1rem;
+			font-weight: 600;
+			position: absolute;
+			bottom: 5%;
+		}
+		.ul1 li:hover {
+			background: white;
+			transition: all 0.5s;
+		}
+		.ul1 li:hover h2 {
+			color: #d10007;
+			transition: all 0.5s;
+		}
+		.ul1 li:hover span {
+			color: #d10007;
+			transition: all 0.5s;
+		}
+		.Ourteam {
+			width: 100%;
+			padding-bottom: 20%;
+			margin-bottom: 20%;
+		}
+		.Ourteam p {
+			font-size: 2rem;
+			color: #d10007;
+			padding: 2%;
+			box-sizing: border-box;
+		}
+		.Ourteam ul {
+			width: 100%;
+			box-sizing: border-box;
+			padding-bottom: 30%;
+		}
+		.Ourteam ul li {
+			float: left;
+			box-sizing: border-box;
+			border: 1% solid gray;
+			margin: auto;
+			width: 25%;
+		}
+		.Ourteam ul li a img {
+			width: 99%;
+		}
+		.Contacts {
+			width: 90%;
+			font-size: 2rem;
+			color: #d10007;
+			padding: 2%;
+			box-sizing: border-box;
+		}
+		
+		.data {
+			width: 41%;
+		}
+	}
+	/*屏幕分辨率在721~820之间*/
+	
+	@media only screen and (min-width:721px) and (max-width:820px) {
+		
+		.ul1 {
+			margin: 0 auto;
+			width: 100%;
+		}
+		.ul1 li {
+			width: 100%;
+			height: 70px;
+			background: #d10007;
+			margin: 1% auto;
+			overflow: hidden;
+		}
+		.ul1 li a {
+			display: block;
+			width: 100%;
+			height: 100%;
+			color: white;
+			padding: 3%;
+			box-sizing: border-box;
+			position: relative;
+			text-decoration: none;
+		}
+		.ul1 li a h2 {
+			font-size: 20px;
+			font-weight: normal;
+		}
+		.ul1 li a p {
+			font-size: 1rem;
+			color: black;
+			display: none;
+			margin-top: 1%;
+		}
+		.ul1 li a span {
+			font-size: 1rem;
+			font-weight: 600;
+			position: absolute;
+			display: none;
+			bottom: 5%;
+		}
+		.ul1 li:hover {
+			background: white;
+			transition: all 0.5s;
+		}
+		.ul1 li:hover h2 {
+			color: #d10007;
+			transition: all 0.5s;
+		}
+		.ul1 li:hover span {
+			color: #d10007;
+			transition: all 0.5s;
+		}
+		.Ourteam {
+			width: 100%;
+			height: 0;
+			padding-top: 10%;
+			padding-bottom: 50%;
+			margin-bottom: 50%;
+		}
+		.Ourteam p {
+			font-size: 2rem;
+			color: #d10007;
+			padding: 2%;
+			box-sizing: border-box;
+		}
+		.Ourteam ul li {
+			float: left;
+			box-sizing: border-box;
+			width: 50%;
+			border: 1% solid gray;
+		}
+		.Ourteam ul li a img {
+			width: 99%;
+		}
+		.Contacts {
+			width: 90%;
+			font-size: 2rem;
+			color: #d10007;
+			padding: 2%;
+			box-sizing: border-box;
+		}
+		
+		.data {
+			width: 41%;
+		}
+	}
+	/*屏幕分辨率在650~720之间*/
+	
+	@media only screen and (min-width:650px) and (max-width:720px) {
+		
+		.ul1 {
+			width: 100%;
+		}
+		.ul1 li {
+			width: 100%;
+			background: #d10007;
+			margin: 1% auto;
+		}
+		.ul1 li a {
+			display: block;
+			width: 100%;
+			height: 100%;
+			color: white;
+			padding: 2.5%;
+			box-sizing: border-box;
+			position: relative;
+			text-decoration: none;
+		}
+		.ul1 li a h2 {
+			font-size: 20px;
+			font-weight: normal;
+			vertical-align: middle;
+		}
+		.ul1 li a p {
+			font-size: 1rem;
+			color: black;
+			display: none;
+			margin-top: 1%;
+		}
+		.ul1 li a span {
+			font-size: 1rem;
+			font-weight: 600;
+			position: absolute;
+			display: none;
+			bottom: 5%;
+		}
+		.ul1 li:hover {
+			background: white;
+			transition: all 0.5s;
+		}
+		.ul1 li:hover h2 {
+			color: #d10007;
+			transition: all 0.5s;
+		}
+		.ul1 li:hover span {
+			color: #d10007;
+			transition: all 0.5s;
+		}
+		.Ourteam {
+			width: 100%;
+		}
+		.Ourteam p {
+			font-size: 2rem;
+			color: #d10007;
+			padding: 2%;
+			box-sizing: border-box;
+		}
+		.Ourteam ul {
+			width: 100%;
+		}
+		.Ourteam ul li {
+			position: relative;
+			box-sizing: border-box;
+			width: 50%;
+			border: 1% solid gray;
+			margin: 1% auto;
+		}
+		.Ourteam ul li a img {
+			width: 99%;
+		}
+		.Contacts {
+			width: 90%;
+			font-size: 2rem;
+			color: #d10007;
+			padding: 2%;
+			box-sizing: border-box;
+		}
+		
+		.data {
+			width: 50%;
+		}
+		.da {
+			font-weight: bold !important;
+		}
+	}
+	/*屏幕分辨率小于650px*/
+	
+	@media only screen and (max-width:650px) {
+		
+		.ul1 {
+			width: 100%;
+		}
+		.ul1 li {
+			width: 100%;
+			background: #d10007;
+			margin: 1% auto;
+		}
+		.ul1 li a {
+			display: block;
+			width: 100%;
+			height: 100%;
+			color: white;
+			padding: 2%;
+			box-sizing: border-box;
+		}
+		.ul1 li a h2 {
+			font-size: 20px;
+			font-weight: normal;
+			vertical-align: middle;
+		}
+		.ul1 li a p {
+			font-size: 1rem;
+			color: black;
+			display: none;
+			margin-top: 1%;
+		}
+		.ul1 li a span {
+			font-size: 1rem;
+			font-weight: 600;
+			position: absolute;
+			display: none;
+			bottom: 5%;
+		}
+		.ul1 li:hover {
+			background: white;
+			transition: all 0.5s;
+		}
+		.ul1 li:hover h2 {
+			color: #d10007;
+			transition: all 0.5s;
+		}
+		.ul1 li:hover span {
+			color: #d10007;
+			transition: all 0.5s;
+		}
+		.Ourteam {
+			width: 100%;
+		}
+		.Ourteam p {
+			font-size: 2rem;
+			color: #d10007;
+			padding: 2%;
+			box-sizing: border-box;
+		}
+		.Ourteam ul {
+			width: 100%;
+		}
+		.Ourteam ul li {
+			float: left;
+			box-sizing: border-box;
+			width: 50%;
+			border: 1% solid gray;
+			margin: 1% auto;
+		}
+		.Ourteam ul li a img {
+			width: 99%;
+		}
+		.Contacts {
+			width: 90%;
+			font-size: 2rem;
+			color: #d10007;
+			box-sizing: border-box;
+		}
+		
+		.data {
+			width: 50%;
+		}
+		.da {
+			font-weight: bold !important;
+		}
+	}
+	/*屏幕分辨率在小于430px*/
+	
+	@media only screen and (max-width:430px) {
+		.Ourteam {
+			width: 100%;
+		}
+		.Ourteam p {
+			font-size: 2rem;
+			color: #d10007;
+			padding: 2%;
+			box-sizing: border-box;
+		}
+		.Ourteam ul {
+			width: 100%;
+		}
+		.Ourteam ul li {
+			position: relative;
+			box-sizing: border-box;
+			width: 100%;
+			border: 1% solid gray;
+			margin: 1% auto;
+		}
+		.Ourteam ul li a img {
+			width: 99%;
+		}
+		.Contacts {
+			width: 90%;
+			font-size: 2rem;
+			color: #d10007;
+			padding: 2%;
+			box-sizing: border-box;
+		}
+	}

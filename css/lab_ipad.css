@@ -1,0 +1,22 @@
+.wrap{
+	width:100%;
+}
+
+.right-wenzi1{
+	font-size:18px;
+	margin-top: 10px;
+	color:#000;
+}
+.right-wenzi2{
+	display: block;
+	font-size:13px;
+	margin-top: 5px;
+	color:#000;
+}
+.lab-neirong-right{
+	margin-right: 0px;
+	margin-left: 2%;
+}
+.lab-neirong-left{
+	margin: 0px;
+}
